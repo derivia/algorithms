@@ -1,0 +1,9 @@
+[project]
+name = "algorithms"
+version = "0.1.0"
+description = "Algorithms in Python"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "click>=8.3.1",
+]
