@@ -10,7 +10,7 @@ def bubblesort(array: list[int]):
 
 
 def run():
-    array = random_number_array(length=10, min_num=1, max_num=100)
+    array = random_number_array()
     print("Unsorted:", array)
     bubblesort(array)
     print("Sorted", array)
